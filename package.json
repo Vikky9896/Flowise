@@ -11,6 +11,7 @@
     ],
     "scripts": {
         "build": "turbo run build",
+        "build": "[my-framework] build --output public"
         "build-force": "pnpm clean && turbo run build --force",
         "dev": "turbo run dev --parallel",
         "start": "run-script-os",
